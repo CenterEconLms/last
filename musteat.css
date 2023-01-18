@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 300;
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot");
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff")
+      format("woff"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "LeferiPoint-WhiteObliqueA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#logo {
+  background-color: antiquewhite;
+}
+
+h2 {
+  font-weight: 300;
+  line-height: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+/*------menu-------*/
+nav.primary-navigation {
+  margin: 0 auto;
+  display: block;
+  padding: 10px 0 30px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+nav.primary-navigation ul li {
+  list-style: none;
+  margin: 0 auto;
+  border-left: 2px solid rgb(177, 175, 175);
+  display: inline-block;
+  padding: 0 60px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: "NanumBarunGothic";
+  font-weight: 100;
+}
+
+nav.primary-navigation ul li:nth-last-child(1) {
+  border-right: 2px solid rgb(177, 175, 175);
+}
+
+nav.primary-navigation li a {
+  color: rgb(177, 175, 175);
+  font-weight: lighter;
+}
+
+nav.primary-navigation li a:hover {
+  color: black;
+  font-weight: bold;
+  transition: all 0.1s ease;
+}
+
+nav.primary-navigation li:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*--map--*/
+#map {
+  margin-left: 20px;
+}
+
+/*--submit--*/
+#name {
+  width: 350px;
+  height: 30px;
+  position: relative;
+  bottom: 520px;
+  left: 1050px;
+}
+#address {
+  width: 350px;
+  height: 30px;
+  position: relative;
+  bottom: 510px;
+  left: 1050px;
+}
+#star {
+  width: 150px;
+  height: 20px;
+  position: relative;
+  bottom: 500px;
+  left: 1050px;
+}
+#submit {
+  width: 80px;
+  height: 20px;
+  position: relative;
+  bottom: 500px;
+  left: 1050px;
+}
+/*--list--*/
+#list {
+  position: relative;
+  bottom: 450px;
+  left: 1050px;
+}
+
+/*--footer--*/
+footer {
+  width: 100%;
+  background-color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+footer p {
+  margin-bottom: px;
+  font-size: 13px;
+  color: #949497;
+}

@@ -1,0 +1,100 @@
+#logo {
+  background-color: antiquewhite;
+}
+
+/*------menu---------*/
+nav.primary-navigation {
+  margin: 0 auto;
+  display: block;
+  padding: 10px 0 40px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+nav.primary-navigation ul li {
+  list-style: none;
+  margin: 0 auto;
+  border-left: 2px solid rgb(177, 175, 175);
+  display: inline-block;
+  padding: 0 60px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: arvo;
+}
+
+nav.primary-navigation ul li:nth-last-child(1) {
+  border-right: 2px solid rgb(177, 175, 175);
+}
+
+nav.primary-navigation li a {
+  color: rgb(177, 175, 175);
+  font-weight: lighter;
+}
+nav.primary-navigation li a:hover {
+  color: black;
+  font-weight: bold;
+  transition: all 0.1s ease;
+}
+
+nav.primary-navigation li:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*--map--*/
+#map {
+  margin-left: 20px;
+}
+
+#input {
+  position: inherit;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+#gage {
+  width: 350px;
+  height: 30px;
+}
+#address {
+  width: 350px;
+  height: 30px;
+  margin-top: 10px;
+}
+#star {
+  width: 150px;
+  height: 20px;
+  margin-top: 10px;
+}
+#submit {
+  width: 80px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+/*--list--*/
+#list {
+  position: relative;
+  bottom: 450px;
+  left: 1050px;
+}
+
+/*--footer--*/
+footer {
+  width: 100%;
+  background-color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+footer p {
+  margin-bottom: px;
+  font-size: 13px;
+  color: #949497;
+}
