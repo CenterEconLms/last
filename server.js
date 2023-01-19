@@ -16,9 +16,7 @@ app.listen(8080, function () {
   console.log("listening 8080");
 });
 
-/*app.get('/matjip',function(요청,응답){
-    응답.sendFile(__dirname + '/view/index.html')
-});*/
+
 app.get("/matjip", function (req, res) {
   conn.query(
     "select * from matjip order by star desc",
@@ -26,6 +24,7 @@ app.get("/matjip", function (req, res) {
       if (err) {
         throw err;
       } else {
+        //res.sendFile(__dirname+'/index.html');
         res.render("index.ejs", { content: results });
       }
     }
